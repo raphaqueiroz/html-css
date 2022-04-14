@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(202, 211, 211);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(155, 175, 175);
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37);
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside{
+            background-color: rgb(172, 172, 172);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nemo laboriosam eum ducimus hic quasi quidem dolorum placeat, laborum, facere quisquam earum libero adipisci repudiandae, dolores sit alias itaque necessitatibus!</p>
+                <aside>
+                    Artigo escrito por José da Silva.
+                </aside>
+            </article>
+
+        </section>
+        <section id="assuntos">
+            <p>Esportes Política e Tacnologia</p>
+
+        </section>
+
+    </main> 
+    <footer>
+        <p>Desenvolvido por Vegas fodão</p>
+
+    </footer>   
+</body>
+</html>
